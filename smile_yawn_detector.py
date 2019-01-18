@@ -6,15 +6,16 @@ import dlib
 import math
 import cv2
 
-#facial landmarks
-Facial_landmarks =[
-	("mouth", (48, 68)),
-	("right_eyebrow", (17, 22)),
-	("left_eyebrow", (22, 27)),
-	("right_eye", (36, 42)),
-	("left_eye", (42, 48)),
-	("nose", (27, 36)),
-	("jaw", (0, 17))
+#facial landmarks key points 
+faciallandmarks =[
+	("jaw_keypoints", (0, 17)),
+	("righteyebrow_keypoints", (17, 22)),
+	("lefteyebrow_keypoints", (22, 27)),
+	("nose_keypoints", (27, 36)),
+	("righteye_keypoints", (36, 42)),
+	("lefteye_keypoints", (42, 48)),
+	("mouth_keypoints", (48, 68))
+	
 ]
 
 #rectangle points
